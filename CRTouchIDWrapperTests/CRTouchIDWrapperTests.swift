@@ -2,7 +2,7 @@
 //  CRTouchIDWrapperTests.swift
 //  CRTouchIDWrapperTests
 //
-//  Created by Sudhanshu Singh on 01/06/15.
+//  Created by CheeseRoot on 01/06/15.
 //  Copyright (c) 2015 CheeseRoot. All rights reserved.
 //
 

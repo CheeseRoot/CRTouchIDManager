@@ -13,6 +13,8 @@
 		84E084EF1B1CD3B000F3D73B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E084EE1B1CD3B000F3D73B /* Images.xcassets */; };
 		84E084F21B1CD3B000F3D73B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E084F01B1CD3B000F3D73B /* LaunchScreen.xib */; };
 		84E084FE1B1CD3B100F3D73B /* CRTouchIDWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E084FD1B1CD3B100F3D73B /* CRTouchIDWrapperTests.swift */; };
+		84E085171B1CDA0500F3D73B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E085161B1CDA0500F3D73B /* SecondViewController.swift */; };
+		84E0851A1B1CDAFD00F3D73B /* TouchIDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E085191B1CDAFD00F3D73B /* TouchIDManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		84E084F71B1CD3B100F3D73B /* CRTouchIDWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRTouchIDWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E084FC1B1CD3B100F3D73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E084FD1B1CD3B100F3D73B /* CRTouchIDWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRTouchIDWrapperTests.swift; sourceTree = "<group>"; };
+		84E085161B1CDA0500F3D73B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		84E085191B1CDAFD00F3D73B /* TouchIDManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIDManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		84E084E41B1CD3B000F3D73B /* CRTouchIDWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				84E085181B1CDAE800F3D73B /* TouchIdManager */,
 				84E084E71B1CD3B000F3D73B /* AppDelegate.swift */,
 				84E084E91B1CD3B000F3D73B /* ViewController.swift */,
+				84E085161B1CDA0500F3D73B /* SecondViewController.swift */,
 				84E084EB1B1CD3B000F3D73B /* Main.storyboard */,
 				84E084EE1B1CD3B000F3D73B /* Images.xcassets */,
 				84E084F01B1CD3B000F3D73B /* LaunchScreen.xib */,
@@ -110,6 +116,14 @@
 				84E084FC1B1CD3B100F3D73B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E085181B1CDAE800F3D73B /* TouchIdManager */ = {
+			isa = PBXGroup;
+			children = (
+				84E085191B1CDAFD00F3D73B /* TouchIDManager.swift */,
+			);
+			path = TouchIdManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E085171B1CDA0500F3D73B /* SecondViewController.swift in Sources */,
 				84E084EA1B1CD3B000F3D73B /* ViewController.swift in Sources */,
+				84E0851A1B1CDAFD00F3D73B /* TouchIDManager.swift in Sources */,
 				84E084E81B1CD3B000F3D73B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +425,7 @@
 				84E085031B1CD3B100F3D73B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E085041B1CD3B100F3D73B /* Build configuration list for PBXNativeTarget "CRTouchIDWrapperTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				84E085061B1CD3B100F3D73B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
